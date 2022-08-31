@@ -1,5 +1,4 @@
 body {
-    background-image: url("../images/landingpage.jpg");
     color: blanchedalmond;
 }
 
@@ -15,7 +14,7 @@ img {
 }
 
 
-.primary_container {
+#primary_container {
     font-size: large;
     color: white;
 }

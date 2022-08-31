@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Document</title>
+    <title>prithvipatil1357@</title>
 </head>
 
-<body>
-    <div class="primary_container">
+<body style="background-image: url(../images/landingpage.jpg);">
+    <div id="primary_container">
         <h1>Welcome to my website!!!</h1>
+        <button onclick="changeBackgroundImage()">Change Background</button>
         <nav class="navigation">
             <a href="/html/about.html">About</a> |
             <a href="/html/contact.html">Contact</a> |
@@ -33,6 +34,17 @@
 
         </p>
     </div>
+
+    <script>
+        function changeBackgroundImage(){
+            var bgrImage = document.body.style.backgroundImage;
+            if(bgrImage == "url(\"../images/landingpage.jpg\")" || bgrImage == ""){
+                document.body.style.backgroundImage = "url(../images/4.jpg)";
+            }else{
+                document.body.style.backgroundImage = "url(../images/landingpage.jpg)";
+            }
+        }
+    </script>
 
 </body>
 
